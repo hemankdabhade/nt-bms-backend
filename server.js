@@ -23,8 +23,8 @@ app.post('/api/revolut/create-order', async (req, res) => {
         merchant_order_ext_ref: `${orderId}`,
         description: `Order #${orderId}`,
         customer_email: customerEmail,
-        return_url: "https://your-production-domain.com/payment-success",
-        cancel_url: "https://your-production-domain.com/payment-cancel",
+        return_url: "https://nt-bms.com/payment-success",
+        cancel_url: "https:/nt-bms.com/payment-cancel",
       },
       {
         headers: { 
